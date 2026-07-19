@@ -254,3 +254,107 @@ section h2::after{
 .btn:hover{
     box-shadow:0 15px 30px rgba(35,134,54,.45);
 }
+
+/* ===================================
+   BUG REPORTS
+=================================== */
+
+#bug-reports .card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+#bug-reports .card strong{
+    color:#58A6FF;
+}
+
+#bug-reports .btn{
+    margin-top:20px;
+    text-align:center;
+}
+
+/* ===================================
+   TEST CASES
+=================================== */
+
+#testcases .card{
+    text-align:center;
+}
+
+#testcases h3{
+    font-size:1.5rem;
+}
+
+/* ===================================
+   CERTIFICATIONS
+=================================== */
+
+#certifications .card{
+    text-align:center;
+}
+
+#certifications h3{
+    color:#58A6FF;
+}
+
+/* ===================================
+   RESUME
+=================================== */
+
+#resume{
+    text-align:center;
+}
+
+#resume p{
+    color:#C9D1D9;
+    margin-bottom:25px;
+}
+
+/* ===================================
+   CONTACT
+=================================== */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    color:#C9D1D9;
+    margin-bottom:20px;
+}
+
+#contact a{
+    color:#58A6FF;
+    text-decoration:none;
+    transition:.3s;
+}
+
+#contact a:hover{
+    color:#79C0FF;
+    text-decoration:underline;
+}
+
+/* ===================================
+   LINKS
+=================================== */
+
+a{
+    transition:.3s;
+}
+
+a:hover{
+    opacity:.9;
+}
+
+/* ===================================
+   HOVER EFFECTS
+=================================== */
+
+.card:hover h3{
+    color:#79C0FF;
+}
+
+.card:hover p{
+    color:#F0F6FC;
+}
