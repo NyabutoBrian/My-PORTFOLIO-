@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Report - Search Results Not Updating</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+<section class="bug-report">
+
+    <h1>🐞 Bug Report</h1>
+
+    <h2>Search Results Not Updating After Applying Filters</h2>
+
+    <table>
+        <tr>
+            <th>Bug ID</th>
+            <td>BR-002</td>
+        </tr>
+
+        <tr>
+            <th>Application</th>
+            <td>Demo E-commerce Website</td>
+        </tr>
+
+        <tr>
+            <th>Module</th>
+            <td>Search</td>
+        </tr>
+
+        <tr>
+            <th>Severity</th>
+            <td>Medium</td>
+        </tr>
+
+        <tr>
+            <th>Priority</th>
+            <td>Medium</td>
+        </tr>
+
+        <tr>
+            <th>Status</th>
+            <td>Open</td>
+        </tr>
+
+        <tr>
+            <th>Environment</th>
+            <td>Android 15 • Google Chrome (Latest)</td>
+        </tr>
+    </table>
+
+    <h3>Summary</h3>
+
+    <p>
+        Search results do not refresh after a user applies one or more search filters. The displayed products remain the same even though the selected filters should narrow the results.
+    </p>
+
+    <h3>Preconditions</h3>
+
+    <ul>
+        <li>User is on the search results page.</li>
+        <li>Multiple products are available.</li>
+    </ul>
+
+    <h3>Steps to Reproduce</h3>
+
+    <ol>
+        <li>Open the application.</li>
+        <li>Search for "Shoes".</li>
+        <li>Apply the <strong>Brand</strong> filter.</li>
+        <li>Apply the <strong>Price Range</strong> filter.</li>
+        <li>Observe the search results.</li>
+    </ol>
+
+    <h3>Expected Result</h3>
+
+    <p>
+        The product list should refresh immediately and display only items matching the selected filters.
+    </p>
+
+    <h3>Actual Result</h3>
+
+    <p>
+        The filters appear to be applied, but the product list does not update. Products that do not match the selected filters continue to be displayed.
+    </p>
+
+    <h3>Attachments</h3>
+
+    <ul>
+        <li>📷 Screenshot: search-results-filter.png</li>
+        <li>🎥 Screen Recording: search-results-filter.mp4</li>
+    </ul>
+
+    <br>
+
+    <a href="../index.html" class="btn">← Back to Portfolio</a>
+
+</section>
+
+</body>
+</html>
