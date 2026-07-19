@@ -156,3 +156,65 @@ footer a{
 footer a:hover{
     text-decoration:underline;
 }
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+    background:linear-gradient(135deg,#0d1117,#161b22);
+}
+
+.profile-photo{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #58a6ff;
+    box-shadow:0 0 30px rgba(88,166,255,.45);
+    transition:.4s;
+}
+
+.profile-photo:hover{
+    transform:scale(1.05);
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-top:20px;
+}
+
+.hero h3{
+    color:#58a6ff;
+    margin:10px 0;
+    font-size:1.5rem;
+}
+
+.hero p{
+    max-width:700px;
+    color:#c9d1d9;
+    margin:20px auto;
+    font-size:1.1rem;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.btn{
+    padding:14px 30px;
+    margin:10px;
+    border-radius:50px;
+    background:#238636;
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    background:#2ea043;
+}
